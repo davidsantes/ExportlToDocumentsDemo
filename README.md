@@ -21,7 +21,7 @@ Puedes poner como punto de partida, cualquiera de estos proyectos:
 ### Pre-requisitos 📋
 
 Como herramientas de desarrollo necesitarás:
-* Visual Studio 2019, con el framework 4.52 (sí, es legacy)
+* Visual Studio 2019, con el framework 4.5.2 (sí, es legacy)
 
 ```
 Nota: Visual Studio Code también valdría
@@ -57,5 +57,5 @@ Usado [Git](https://git-scm.com//) para el versionado. Por ahora, no existen dif
 
 ## Agradecimientos 🎁
 
-* Plataforma de aprendizaje CampusMVP [Platzi](https://www.campusmvp.es/)
+* Plataforma de aprendizaje CampusMVP [CampusMvp](https://www.campusmvp.es/)
 * A cualquiera que me invite a una cerveza 🍺. 
