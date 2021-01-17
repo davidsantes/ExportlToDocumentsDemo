@@ -1,0 +1,11 @@
+﻿@using System.Web.Mvc.Html
+@{
+    ViewBag.Title = "Excel Generator";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<br />
+@Html.ActionLink("Crear Excel con clase dinámica", "ExcelClaseDinamica", "Excel")
+<br />
+@Html.ActionLink("Crear Excel con lista tipada", "ExcelListaTipada", "Excel")
