@@ -123,6 +123,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Sequence\ExcelController_ExcelClaseDinamica.sequencediagram" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -139,6 +140,11 @@
       <Project>{71687028-9370-4578-9d4e-69bf5b36b94c}</Project>
       <Name>Export.Common</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Sequence\ExcelController_ExcelClaseDinamica.sequencediagram.layout">
+      <DependentUpon>ExcelController_ExcelClaseDinamica.sequencediagram</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

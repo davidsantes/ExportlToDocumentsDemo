@@ -67,6 +67,7 @@
   <ItemGroup>
     <Content Include="Excel.aspx" />
     <Content Include="packages.config" />
+    <Content Include="Sequence\Excel_BtnExcelListaTipada_Click.sequencediagram" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -103,6 +104,11 @@
       <Project>{71687028-9370-4578-9d4e-69bf5b36b94c}</Project>
       <Name>Export.Common</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Sequence\Excel_BtnExcelListaTipada_Click.sequencediagram.layout">
+      <DependentUpon>Excel_BtnExcelListaTipada_Click.sequencediagram</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
